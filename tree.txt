@@ -1,0 +1,19 @@
+Fluto [4]
+ ├─ LICENSE
+ │
+ ├─┬ samples [2]
+ │ ├─ example.ft
+ │ └─ fizzbuzz.ft
+ │
+ ├─┬ hist [1]
+ │ └─ fluto@001.py
+ │
+ └─┬ src [3]
+   ├─ fluto.py
+   ├─ main.py
+   │
+   └─┬ grammar [3]
+     ├─ lexer.py
+     ├─ interpreter.py
+     └─ token.py
+

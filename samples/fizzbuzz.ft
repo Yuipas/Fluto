@@ -1,0 +1,26 @@
+#!/usr/bin/env fluto
+
+
+function fizzbuzz(start, end) {
+
+  def i = start;
+
+  for (i => end) {
+    def fizz = i % 3
+    def buzz = i % 5
+
+    if fizz and buzz {
+      log():FizzBuzz;
+    } else if fizz {
+      log():fizz;
+    } else if buzz {
+      log():buzz;
+    } else {
+      log(i);
+    }
+  }
+
+}
+
+
+fizzbuzz(0, 20);
