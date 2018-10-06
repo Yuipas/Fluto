@@ -1,0 +1,15 @@
+class player() {
+
+  def live = 3;
+
+  struct pos {
+    def x = 0;
+    def y = 0;
+  }
+
+  constructor() {
+
+  }
+
+  method hurt() {}
+}
