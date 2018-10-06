@@ -1,22 +1,18 @@
-#!/usr/bin/env python3
-
 from grammar import (
-    interpreter,
-    lexer
+    lexer,
+    tokens,
+    interpreter
 )
 
 def main():
-
     while True:
-        code = input('!> ')
-
-        if not code:
+        text = input("ƒ> ")
+        if not text:
             continue
 
-        fluto_lexer = lexer.Lexer(code)
-        fluto_interpreter = interpreter.Interpreter(fluto_lexer)
-        result = fluto_interpreter.expr()
-
+        fLexer = lexer.Lexer(text)
+        fInterpreter = interpreter.Interpreter(fLexer)
+        result = fInterpreter.expr()
         print(result)
 
 if __name__ == '__main__':

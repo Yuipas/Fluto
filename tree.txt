@@ -1,19 +1,21 @@
-Fluto [4]
+Fluto [7]
+ ├─ tree.txt
  ├─ LICENSE
  │
- ├─┬ samples [2]
+ ├─┬ samples [3]
  │ ├─ example.ft
+ │ ├─ classes.ft
  │ └─ fizzbuzz.ft
  │
- ├─┬ hist [1]
- │ └─ fluto@001.py
+ ├─┬ dist [3]
+ │ ├─ fluto@001.py
+ │ ├─ fluto@002.py
+ │ └─ fluto@003.py
  │
- └─┬ src [3]
-   ├─ fluto.py
+ └─┬ src [2]
    ├─ main.py
    │
-   └─┬ grammar [3]
+   └─┬ grammar [4]
      ├─ lexer.py
      ├─ interpreter.py
-     └─ token.py
-
+     └─ tokens.py
